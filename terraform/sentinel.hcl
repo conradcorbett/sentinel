@@ -5,3 +5,7 @@ policy "proper-instances" {
 policy "limit-cost" {
     enforcement_level = "soft-mandatory"
 }
+
+policy "require-all-resources-from-pmr" {
+    enforcement_level = "soft-mandatory"
+}
