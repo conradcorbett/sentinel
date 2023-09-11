@@ -21,7 +21,7 @@ allowed_types = [
 
 aws_instances = get_aws_instances()
 
-# Rule to restrict instance types
+# Rule to restrict instance types: Must be t2.micro, t2.small, t3.micro, t3.small, t3.medium, t3.large.
 instance_type_allowed = rule {
     all aws_instances as _, instances {
         all instances as index, r {
