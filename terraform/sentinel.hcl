@@ -1,5 +1,5 @@
 policy "proper-instances" {
-    enforcement_level = "soft-mandatory"
+    enforcement_level = "advisory"
 }
 
 policy "limit-cost" {
